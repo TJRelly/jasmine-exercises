@@ -33,7 +33,6 @@ function updateServerTable() {
 
     let newTr = document.createElement('tr');
     newTr.setAttribute('id', key);
-    console.log(newTr)
 
     let tipAverage = sumPaymentTotal('tipAmt') / Object.keys(allServers).length;
 
